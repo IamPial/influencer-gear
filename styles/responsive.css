@@ -3,14 +3,13 @@
   /* nav section  */
   nav {
     width: 100%;
-    justify-content: space-between;
-    padding: 20px 5px;
+    padding: 20px;
   }
   nav .hamburger-menu {
     display: inline-block;
   }
   nav h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   nav ul.menu li {
     display: none;
@@ -22,14 +21,19 @@
 
   /* hero section */
   .hero-area {
-    gap: 50px;
+    gap: 14px;
     flex-direction: column-reverse;
   }
   .hero-content {
     text-align: center;
   }
   .hero-content h1 {
-    font-size: 2.6rem;
+    font-size: 1.7rem;
+    line-height: 40px;
+  }
+  .hero-content p {
+    font-size: 0.9rem;
+    font-weight: 500;
   }
   /* company section */
   .company-logo-area {
