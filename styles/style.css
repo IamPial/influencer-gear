@@ -112,6 +112,7 @@ nav .menu li a img {
   justify-content: space-between;
   padding: 35px 60px;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
+
 /* TODO: work with company section */
