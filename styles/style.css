@@ -15,6 +15,7 @@
   --text-white: #ffffff;
   --bg-pink: #e02c6d;
   --bg-light-gray: #aaaaaa;
+  --bg-navy: #0a0826;
 }
 .container {
   margin: 0 auto;
@@ -224,4 +225,32 @@ nav .menu li a img {
 }
 .features-content .join-btn .btn i {
   margin-left: 8px;
+}
+
+/* footer section */
+#footer {
+  background-color: var(--bg-navy);
+  padding: 50px 0;
+}
+.footer-area {
+  text-align: center;
+}
+.footer-area h3 {
+  font-size: 1.5rem;
+  color: var(--text-white);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.footer-area p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #d9dbe1;
+  line-height: 24px;
+}
+
+.social-link {
+  margin-top: 17px;
+}
+.social-link a {
+  margin-right: 16px;
 }
