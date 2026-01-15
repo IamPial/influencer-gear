@@ -1,6 +1,10 @@
 /* for mobile device */
 @media screen and (max-width: 576px) {
   /* nav section  */
+  .container {
+    width: 90%;
+  }
+
   nav {
     width: 100%;
     padding: 20px;
@@ -74,5 +78,24 @@
   .card-content .card-desc p:nth-child(1),
   .card-content .card-desc p:nth-child(2) {
     display: inline-block;
+  }
+
+  /* feature section */
+  .features-area {
+    padding: 40px 0;
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+  .features-img img {
+    width: 100%;
+  }
+  .features-content {
+    text-align: center;
+  }
+  .features-content h2 {
+    font-size: 1.5rem;
+  }
+  .features-content p {
+    margin-bottom: 30px;
   }
 }
