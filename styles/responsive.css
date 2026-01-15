@@ -2,24 +2,22 @@
 @media screen and (max-width: 576px) {
   /* nav section  */
   nav {
-    padding: 20px 0px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 5px;
+  }
+  nav .hamburger-menu {
+    display: inline-block;
   }
   nav h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   nav ul.menu li {
     display: none;
   }
   nav ul.menu li:nth-child(6) {
     display: inline-block;
-    margin-top: 16px;
-  }
-  nav .hamburger-menu {
-    display: inline-block;
-  }
-  nav .menu {
-    gap: 7px;
-    flex-direction: column;
+    margin-top: 10px;
   }
 
   /* hero section */
