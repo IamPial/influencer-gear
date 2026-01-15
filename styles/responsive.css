@@ -98,4 +98,18 @@
   .features-content p {
     margin-bottom: 30px;
   }
+
+  /* footer section */
+  .footer-area h3 {
+    font-size: 1rem;
+  }
+  .footer-area p {
+    font-size: 0.7rem;
+  }
+  .social-link {
+    margin-top: 10px;
+  }
+  .social-link a {
+    margin-right: 10px;
+  }
 }
