@@ -12,7 +12,7 @@
   /* hero section */
   .hero-area {
     gap: 50px;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .hero-content h1 {
     font-size: 2.6rem;
