@@ -194,3 +194,34 @@ nav .menu li a img {
 .explore-btn .btn i {
   margin-left: 10px;
 }
+
+/* features section */
+.features-area {
+  padding: 100px 0;
+  display: flex;
+  gap: 96px;
+  /* align-items: center; */
+}
+.features-content {
+  padding: 23px 0;
+}
+.features-content h2 {
+  font-size: 2.3rem;
+  color: #0a0826;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.features-content p {
+  font-size: 1rem;
+  color: #6c6c6c;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 16px;
+  max-width: 500px;
+}
+.features-content .join-btn .btn {
+  border-radius: 0;
+}
+.features-content .join-btn .btn i {
+  margin-left: 8px;
+}
