@@ -1,0 +1,11 @@
+/* for mobile device */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    padding: 20px 0 60px;
+  }
+  nav .menu {
+    gap: 7px;
+    flex-direction: column;
+  }
+}
