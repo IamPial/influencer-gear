@@ -134,6 +134,7 @@ nav .menu li a img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  margin-bottom: 50px;
 }
 .single-card {
   border-radius: 5px;
@@ -153,7 +154,7 @@ nav .menu li a img {
 .card-content p.card-price {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
-  font-size: 400;
+  font-weight: 400;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 6px;
 }
@@ -171,12 +172,25 @@ nav .menu li a img {
   font-size: 0.9rem;
   font-weight: 700;
   color: #5e6366;
+  line-height: 22px;
 }
 .card-content .card-desc p {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
   color: #787885;
-  letter-spacing: 1.8%;
   line-height: 143%;
+}
+.explore-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.explore-btn .btn {
+  border-radius: 0;
+  background-color: transparent;
+  color: rgba(224, 44, 109, 0.87);
+  padding: 0px 0px;
+}
+.explore-btn .btn i {
+  margin-left: 10px;
 }
