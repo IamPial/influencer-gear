@@ -14,6 +14,9 @@
     gap: 50px;
     flex-direction: column-reverse;
   }
+  .hero-content {
+    text-align: center;
+  }
   .hero-content h1 {
     font-size: 2.6rem;
   }
