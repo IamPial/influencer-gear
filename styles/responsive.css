@@ -20,4 +20,16 @@
   .hero-content h1 {
     font-size: 2.6rem;
   }
+  /* company section */
+  .company-logo-area {
+    padding: 40px 0px;
+  }
+  .company-logo-img {
+    padding: 5px 4px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .company-logo-img img {
+    width: 21%;
+  }
 }
