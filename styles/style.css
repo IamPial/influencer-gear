@@ -41,6 +41,9 @@ nav {
   align-items: center;
   /* background-color: greenyellow; */
 }
+nav .hamburger-menu {
+  display: none;
+}
 nav h2 {
   font-size: 1.4rem;
   font-weight: 700;
@@ -114,5 +117,3 @@ nav .menu li a img {
   align-items: center;
   /* border: 1px solid red; */
 }
-
-/* TODO: work with company section */
