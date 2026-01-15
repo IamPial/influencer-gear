@@ -18,6 +18,15 @@
   width: 83%;
   max-width: 1200px;
 }
+.btn {
+  padding: 10px 24px;
+  color: var(--text-white);
+  background-color: var(--bg-pink);
+  border-radius: 40px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
 
 /* main style */
 
@@ -72,15 +81,7 @@ nav .menu li a img {
   font-size: 1rem;
   color: var(--text-dark);
   font-weight: 600;
-}
-.hero-content button {
-  padding: 10px 24px;
-  color: var(--text-white);
-  background-color: var(--bg-pink);
-  border-radius: 40px;
-  border: none;
-  font-size: 1rem;
-  font-weight: 700;
+  max-width: 500px;
 }
 .hero-content button i {
   margin-left: 8px;
@@ -102,4 +103,15 @@ nav .menu li a img {
   width: 100%;
 }
 
-/* todo: make the hero section */
+/* Company Section */
+.company-logo-area {
+  padding: 100px 30px;
+}
+.company-logo-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 60px;
+  align-items: center;
+  border: 1px solid red;
+}
+/* TODO: work with company section */
