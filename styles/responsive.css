@@ -43,4 +43,32 @@
   .company-logo-img img {
     width: 21%;
   }
+
+  /* collection section */
+  .collection-area h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .collection-area .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-bottom: 32px;
+  }
+  .single-card .card-content h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .card-content p.card-price {
+    font-weight: 700;
+  }
+  .card-content .rating-area span {
+    font-weight: 500;
+  }
+  .card-content .card-desc p {
+    font-weight: 400;
+  }
+  .card-content .card-desc p:nth-child(1),
+  .card-content .card-desc p:nth-child(2) {
+    display: inline-block;
+  }
 }
